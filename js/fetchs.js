@@ -84,7 +84,7 @@ function displayMovieDetails(details){
         <p class = "genre"><b>Género:</b> ${details.Genre}</p>
         <p class = "writer"><b>Escritor:</b> ${details.Writer}</p>
         <p class = "actors"><b>Actores: </b>${details.Actors}</p>
-        <p class = "plot"><b>Plot:</b> ${details.Plot}</p>
+        <p class = "plot"><b> Sinopsis:</b> ${details.Plot}</p>
         <p class = "language"><b>Idioma:</b> ${details.Language}</p>
         <p class = "awards"><b><i class = "fas fa-award"></i></b> ${details.Awards}</p>
 		
