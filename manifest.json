@@ -6,7 +6,6 @@
     "start_url": "/index.html",
     "name": "Super Pelis",
     "short_name": "SP",
-	"description": "Una App de Pelis",
     "icons": [
         {
             "src": "imgs/resource/icon-192x192.png",
