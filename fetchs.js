@@ -59,7 +59,7 @@ function cargaDetalle(){
             // console.log(movie.dataset.id);
             searchList.classList.add('hide-search-list');
             searchPeli.value = "";
-            const result = await fetch(`http://www.omdbapi.com/?i=${movie.dataset.id}&apikey=fc1fef96`);
+            const result = await fetch(`http://www.omdbapi.com/?i=${movie.dataset.id}&apikey=${APIKEY}`);
             const movieDetails = await result.json();
             // console.log(movieDetails);
             displayMovieDetails(movieDetails);
